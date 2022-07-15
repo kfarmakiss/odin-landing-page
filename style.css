@@ -1,0 +1,145 @@
+.header {
+    background-color: #1f2937;
+}
+
+.welcome-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.welcome-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-1 .logo{
+    font-size: 28px;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 18px;
+    border-radius: 10px;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px;
+    padding-bottom: 70px;
+}
+
+.who-are-we {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.who-are-we-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.profile-container {
+    display: flex;
+    gap: 52px;
+    
+}
+
+.profile img {
+    border-radius: 25px;
+    border: 5px solid ;
+    border-color: #3882f6;
+}
+
+.profile p {
+    width: 200px;
+}
+
+.quote {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 480px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote-sign {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin:0;
+    align-self: flex-end;
+}
+
+.sign-up-reminder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 200px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.reminder-main {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.reminder-secondary {
+    margin-top: 0;
+    padding: 0;
+    color: #f9faf8;
+}
+
+
+
+.footer {
+    background-color: #1f2937;
+    margin-bottom: 0;
+    padding: 2.5px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
